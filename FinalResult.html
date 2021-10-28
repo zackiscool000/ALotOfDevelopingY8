@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/d1095f52b7d649740e90ea7c6484113d922fba20/reset.css" type="text/css">
+<link rel="stylesheet" href="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/90d18d039a9a449d6a7ea26ae0021d75d5b61622/main.css" type="text/css">
+<link rel="stylesheet" href="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/0ffc01307a8768e4d8573ca3ab8d5e8f805e9c2a/orientation_utils.css" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
+<meta name="msapplication-tap-highlight" content="no"/>
+
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/3f3a4ef5d765eba0aa4d49e51c88f3c3aa99f266/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/52e00efa0193716bfe58950de1788c43f6640f7c/createjs-2015.11.26.min.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/ca1a7f8fff1d6da6a3ef0ec24f8bb184e008c67c/howler.min.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/b44a8d80162df4bba0e1af7bcf75cac31982800b/ctl_utils.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/b0b5c73d11a17c4193050c2f867f18f7cb481055/sprite_lib.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/f0e6da62469353986a5f378b62dfcd1504c17ff3/settings.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/ee2fa28ca915270adf65ccde0e3bf19b80cb67bd/CLang.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/81f30a3440075420941b7bb85afa7b0655e898f5/CPreloader.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/641a832903ec2e03f04d83debcf5652791e72695/CMain.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/47774f79b0d9d5dc40247d1d75c4e9242badc22f/CTextButton.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/d0d8974a20762b41838c84f810d5cb9e1687a60f/CToggle.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/163abf47e7bd85b2ff88b04bb7e3838224137fb9/CGfxButton.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/9463554f2c83d4a06852829ced617a2f0d770ea0/CMenu.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/b21a94ed706327ff421a8a00ba9b881ebae56190/CGame.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/c0c292d87eabc6760c696c81d50ebd0ae93d28fb/CInterface.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/d34ee4517297ff96e8785aed85aacb55bc03ed8c/CEndPanel.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/b89cd617c1f0630a84b84c55fc7d38dd86274bbf/CCreditsPanel.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/ca1a7f8fff1d6da6a3ef0ec24f8bb184e008c67c/CAreYouSurePanel.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/bc95573c7f8858a8afcd0e39c3682493e354799e/CModePanel.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/1731781507908463377cc8cbac4d94547fcceff1/CBoard.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/599994fc1875310aa8be4bc5b4f20de896776647/CDisc.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/d289f37959e91b847f27a8864de442484a1d4d2c/CTurnPanel.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/d289f37959e91b847f27a8864de442484a1d4d2c/CAIController.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/e9e406977be2cafeb4fa630eb2007e84c258321e/CTiePanel.js"></script>
+
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/92b6a1acd0a88cbc45fef9518291e7d643ae94fc/Y8logo.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/e4a536a36c58bc4b8d8edbd6a237c831fff2f9c1/CBlacklist.js"></script>
+
+</head>
+<body ondragstart="return false;" ondrop="return false;" >
+<div style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%"></div>
+<script>
+$(document).ready(function(){
+var oMain = new CMain({
+bonus_time:40, //MAXIMUM NUMBER OF SECONDS TO GET THE BONUS
+points_for_win:1000, //NUMBER OF IMAGES TO LOAD. YOU MUST ADD COHERENT NUMBER OF IMAGES IN /SPRITES FOLDER.
+fullscreen:true, //SET THIS TO FALSE IF YOU DON'T WANT TO SHOW FULLSCREEN BUTTON
+check_orientation:true, //SET TO FALSE IF YOU DON'T WANT TO SHOW ORIENTATION ALERT ON MOBILE DEVICES
+});
+
+$(oMain).on("start_session", function(evt) {
+if(getParamValue('ctl-arcade') === "true"){
+parent.__ctlArcadeStartSession();
+}
+//...ADD YOUR CODE HERE EVENTUALLY
+});
+
+$(oMain).on("end_session", function(evt) {
+if(getParamValue('ctl-arcade') === "true"){
+parent.__ctlArcadeEndSession();
+}
+//...ADD YOUR CODE HERE EVENTUALLY
+});
+
+$(oMain).on("save_score", function(evt,iScore) {
+if(getParamValue('ctl-arcade') === "true"){
+parent.__ctlArcadeSaveScore({score:iScore});
+console.log("save_score: "+iScore);
+}
+//...ADD YOUR CODE HERE EVENTUALLY
+});
+
+$(oMain).on("show_interlevel_ad", function(evt) {
+if(getParamValue('ctl-arcade') === "true"){
+parent.__ctlArcadeShowInterlevelAD();
+}
+//...ADD YOUR CODE HERE EVENTUALLY
+});
+
+$(oMain).on("share_event", function(evt, iScore) {
+if(getParamValue('ctl-arcade') === "true"){
+parent.__ctlArcadeShareEvent({ img: TEXT_SHARE_IMAGE,
+title: TEXT_SHARE_TITLE,
+msg: TEXT_SHARE_MSG1 + iScore + TEXT_SHARE_MSG2,
+msg_share: TEXT_SHARE_SHARE1 + iScore + TEXT_SHARE_SHARE1
+});
+console.log("share_event "+iScore);
+}
+//...ADD YOUR CODE HERE EVENTUALLY
+});
+
+if(isIOS()){
+setTimeout(function(){sizeHandler();},200);
+}else{
+sizeHandler();
+}
+
+/*************************Idnet *************************/
+window.idAsyncInit = function() {
+// use an id.net event to wait until after init
+ID.Event.subscribe('id.init', function(){
+// use jquery to call methods on clicks
+console.log('from')
+ID.getLoginStatus(idCallback)
+ID.Protection.isBlacklisted(function(blacklisted){
+//blacklisted = true
+oMain.blackListState(blacklisted);
+console.log('[BLACKLIST] : ' + blacklisted);
+});
+ID.Protection.isSponsor(function(sponsor){
+//sponsor = true
+oMain.sponsorStatus(sponsor);
+console.log('[SPONSOR] : ' + sponsor);
+});
+
+//oMain.LoadData()
+});
+// using an optional callback to capture data on the client
+var userName;
+var idCallback = function(response){
+if (response) { // That means that the server processed the response
+console.log(response);
+console.log(response.status);
+console.log('Working');
+console.log('response.status ' + response.status);
+if(response.status === 'ok')
+{
+userName = response.authResponse.details.nickname;
+oMain.getUserName(userName,true);
+}
+else if(response.status === 'not_linked')
+{
+ID.login(idCallback);
+}
+}
+}
+// init the JS interface
+ID.init({
+appId : '5a7f2e79e694aa185e8b6339'
+});
+};
+
+// load the idnet js interface
+(function(d, s, id){
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) {return;}
+js = d.createElement(s); js.id = id;
+js.src = document.location.protocol == 'https:' ? "https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/0a230eb6b7002d436dad12870079df5bdc3e1421/sdk.js" : "https://rawcdn.githack.com/zackiscool000/ALotOfDevelopingY8/6ec30e78b87fc28f6bc85bd2ba30fb3b3f4b478c/api/sdk.js";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'id-jssdk'));
+/**************************************************************/
+});
+
+</script>
+
+<div id="adv_mainContainer">
+<div id="adv_content">
+<video id="adv_contentElement">
+<source src="video/android.mp4"></source>
+<source src="video/android.webm"></source>
+</video>
+<div id="adv_adContainer"></div>
+</div>
+</div>
+<script type="text/javascript" src="imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+<script type="text/javascript" src="js/gamebreak.js"></script>
+
+<canvas id="canvas" class='ani_hack' width="1700" height="768"> </canvas>
+<div data-orientation="landscape" class="orientation-msg-container"><p class="orientation-msg-text">Please rotate your device</p></div>
+<div id="adv_emptContainer" style="position: fixed; background-color:#000000;opacity: 0.9; top: 0px; left: 0px; width: 100%; height: 100%; display:none"></div>
+<div id="block_game" style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%; display:none"></div>
+
+</body>
+</html>
